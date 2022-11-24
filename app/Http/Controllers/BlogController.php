@@ -2,11 +2,11 @@
 declare(strict_types=1);
 
 namespace App\Http\Controllers;
+
 use App\Http\Resources\BlogResource;
 use App\Traits\BlogPreviewTrait;
 use Illuminate\Http\Request;
 use App\Models\Blog;
-use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
